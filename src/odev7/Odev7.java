@@ -6,6 +6,30 @@ public class Odev7 {
 
     public static void main(String[] args) {
 
+        Scanner sc = new Scanner(System.in);
+      System.out.println("Ders seçiniz: ");
+      String ders = sc.next();
+      switch (ders) {
+         case "1":
+            System.out.println("Makine Öğrenmesi");
+            break;
+         case "2":
+            System.out.println("Algoritma Ve Programlama");
+            break;
+         case "3":
+            System.out.println("Sayısal Sistemler");
+            break;
+         case "4":
+            System.out.println("Veri Yapıları");
+            break;
+         case "5":
+            System.out.println("Bilgisayar Ağları");
+            break;
+         default:
+            System.out.println("Ders seçmediniz");
+            break;
+
+       }
         int vize, final_notu;
         double sonuc;
 
